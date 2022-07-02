@@ -1,0 +1,9 @@
+set(BINARY ${CMAKE_PROJECT_NAME})
+
+file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h)
+
+set(INCLUDES ${INCLUDES})
+
+add_executable(${BINARY}_run ${INCLUDES})
+
+add_library(${BINARY}_lib STATIC ${INCLUDES})
