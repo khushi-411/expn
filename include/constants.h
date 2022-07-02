@@ -1,3 +1,7 @@
+#ifndef INCLUDE_CONSTANTS_HPP
+#define INCLUDE_CONSTANTS_HPP
+
+
 #pragma once
 
 #define EUL 0.57721566490153286060
@@ -140,3 +144,5 @@ static const int Adegs[] = {
     8, 9, 10,
     11
 };
+
+#endif // INCLUDE_CONSTANSTS_HPP
