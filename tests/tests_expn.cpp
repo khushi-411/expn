@@ -1,3 +1,6 @@
+#include <iostream>
+#include <math.h>
+
 #include "gtest/gtest.h"
 #include "expn.h"
 
@@ -8,7 +11,7 @@ TEST(expnTest, test1) {
 
 
 TEST(expnTest, test2) {
-    EXPECT_EQ (expn(-1, 1), 0/0.0); // returns nan
+    EXPECT_EQ (expn(-1, 1), std::abs(0/0.0)); // returns nan
 }
 
 
