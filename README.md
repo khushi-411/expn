@@ -1,1 +1,3 @@
-# expn
+# Generalized exponential integral *En*
+
+WIP
